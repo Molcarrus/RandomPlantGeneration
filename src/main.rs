@@ -1,6 +1,18 @@
 use bevy::{
-     diagnostic::{FrameTimeDiagnosticsPlugin, LogDiagnosticsPlugin}, pbr::CascadeShadowConfigBuilder, prelude::*, 
-     render::{mesh::PlaneMeshBuilder, view::screenshot::{save_to_disk, Capturing, Screenshot}},
+     diagnostic::{
+          FrameTimeDiagnosticsPlugin, 
+          LogDiagnosticsPlugin
+     }, 
+     pbr::CascadeShadowConfigBuilder, 
+     prelude::*, 
+     render::{
+          mesh::PlaneMeshBuilder, 
+          view::screenshot::{
+               save_to_disk, 
+               Capturing, 
+               Screenshot
+          }
+     },
      window::SystemCursorIcon,
      winit::cursor::CursorIcon,
      text::FontSmoothing
