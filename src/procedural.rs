@@ -2,7 +2,8 @@ use bevy::prelude::*;
 
 use bevy_egui::{
     egui::{
-        self, Slider
+        self, 
+        Slider
     },
     EguiContexts,
 };
