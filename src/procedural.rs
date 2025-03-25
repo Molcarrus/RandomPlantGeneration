@@ -10,8 +10,16 @@ use bevy_egui::{
 
 use rand::Rng;
 
-use crate::values::{
-    Values, ValueVector, ANGLE_MINMAX, TRUNK_RADIUS_MINMAX, BRANCHES_MINMAX, LEAF_RADIUS_MINMAX, HEIGHT_MINMAX, SCALE_MINMAX, OFFSET_RATIO_MINMAX,
+use crate::values::{ 
+    Values, 
+    ValueVector, 
+    ANGLE_MINMAX, 
+    TRUNK_RADIUS_MINMAX, 
+    BRANCHES_MINMAX, 
+    LEAF_RADIUS_MINMAX, 
+    HEIGHT_MINMAX, 
+    SCALE_MINMAX, 
+    OFFSET_RATIO_MINMAX 
 };
 
 use crate::tree::generate;
