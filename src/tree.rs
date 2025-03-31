@@ -55,9 +55,9 @@ fn generate_branches(values: &Values, height: u8, parent_idx: usize, all: &mut V
 
 pub fn generate(values: &Values) -> Vec<Branch> {
     let base = Transform::default();
-    let mut ret: Vec<Branch> = Vec::new();
-    ret.push(Branch(base, None, false));
+    let mut tree: Vec<Branch> = Vec::new();
+    tree.push(Branch(base, None, false));
     generate_branches(values, 1, 0, &mut ret);
 
-    ret
+    tree
 }
